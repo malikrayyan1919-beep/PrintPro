@@ -12,6 +12,3 @@ jobs:
       - run: gradle assembleDebug
       - uses: actions/upload-artifact@v4
         with: { name: PrintPro-apk, path: app/build/outputs/apk/debug/app-debug.apk }
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
